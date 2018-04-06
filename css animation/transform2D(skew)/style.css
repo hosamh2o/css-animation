@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding:0;
+box-sizing: border-box;
+}
+.contener{
+	height: 400px;
+	width: 400px;
+	 
+	background-color: #f00;
+    margin-left: 500px;
+    margin-top: 135px;
+}
+ 
+.trans2D{
+padding-left: 33px
+    width: 270px;
+    height: 270px;
+    background-color: #f80;
+    text-align: center;
+    font-size: 44px;
+    padding-top: 50px;
+  transition: all 3s ease-in-out ;
+    }
+    .trans2D:hover{
+      -webkit-tranform:skewX(30deg) scale(1.5) translate(60PX,10PX);
+        transform:skewX(30deg) scale(1.5) translate(60PX,10PX);
+}

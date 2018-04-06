@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding:0;
+box-sizing: border-box;
+}
+.contener{
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	background-color: #f00;
+    margin-left: 500px;
+    margin-top: 135px;
+}
+
+ 
+.tow{
+    height: 401px;
+    width: 30px;
+    background-color: #f80;
+    margin-left: 185px;
+    margin-top: 135px;
+}
+.tow:hover{
+    transform: scale(13, 1);
+    border-radius: 50%;
+     
+    
+    box-shadow: -2px -2px;
+}

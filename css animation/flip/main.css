@@ -1,0 +1,11 @@
+.img{
+        margin-top: 44px;
+     margin-left: 600px; 
+    width: 260px;
+    height: 260px;
+    transition: all 4s /*ease-in-out;*/
+    }
+    .img:hover{
+       
+        transform:rotatey(190DEG); /*translate(99px, 99px);*/
+      
